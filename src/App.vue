@@ -21,7 +21,7 @@
 					contenteditable
 					@input="handleChange"
 					@keydown.exact.esc="hideAddTodo"
-					@keydown.exact.enter="addTodo"
+					@keydown.exact.enter.prevent="addTodo"
 				/>
 				<small>
 					escape to <button @click="hideAddTodo">cancel</button>
@@ -406,7 +406,6 @@ li {
 	display: flex;
 	align-items: center;
 
-	border-radius: 8px;
 	padding: 8px 0;
 	font-size: 14px;
 	font-weight: 300;
@@ -420,6 +419,7 @@ li + li {
 }
 
 li:hover {
+	border-radius: 8px;
 	background: rgba(79, 84, 92, 0.16);
 	border-color: transparent;
 }
