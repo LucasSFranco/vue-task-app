@@ -5,11 +5,17 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "cypress": "cypress open"
   },
   "dependencies": {
+    "chance": "^1.1.7",
     "core-js": "^3.6.5",
-    "vue": "^3.0.0"
+    "dexie": "^3.0.3",
+    "dexie-observable": "^3.0.0-beta.10",
+    "moment": "^2.29.1",
+    "vue": "^3.0.0",
+    "vuex": "^4.0.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
@@ -18,6 +24,7 @@
     "@vue/compiler-sfc": "^3.0.0",
     "@vue/eslint-config-airbnb": "^5.0.2",
     "babel-eslint": "^10.1.0",
+    "cypress": "^6.8.0",
     "eslint": "^6.7.2",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-vue": "^7.0.0",
@@ -37,7 +44,13 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
+    "rules": {
+      "consistent-return": "off",
+      "import/prefer-default-export": "off",
+      "no-param-reassign": "off",
+      "no-unused-vars": "warn",
+      "vue/no-unused-components": "warn"
+    }
   },
   "browserslist": [
     "> 1%",
