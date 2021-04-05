@@ -2,7 +2,7 @@
 
 ###### Click on the link beside the title above to view the app
 
-&nbsp;&nbsp;&nbsp;&nbsp;A task app built using `Vue.js` and `Dexie.js`. Some of its features:
+&nbsp;&nbsp;&nbsp;&nbsp;A task app built using `Vue.js` and `Dexie.js`. Also includes `Vuex` as state manager and `Cypress` as testing library. Some of its features:
   - collapsible add task form;
   - skeleton loading;
   - delete task button;
