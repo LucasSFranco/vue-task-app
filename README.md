@@ -1,35 +1,21 @@
-# vue-task-app-2.0
+# Vue Task App ✔️ <sup><sub>[DEMO](https://606246d120b6d4000745fe0e--angry-nobel-17e7b9.netlify.app/)</sub></sup>
 
-## Project setup
+###### Click on the link beside the title above to view the app
 
+&nbsp;&nbsp;&nbsp;&nbsp;A task app built using `Vue.js` and `Dexie.js`. Some of its features:
+  - collapsible add task form;
+  - skeleton loading;
+  - delete task button;
+  - toggle task completion button;
+  - self-expandable textarea; and,
+  - a beatiful design.  
+  
+### How to run
+&nbsp;&nbsp;&nbsp;&nbsp;Just write the lines below in your console:
 ```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-
-```
-yarn build
-```
-
-### Lints and fixes files
-
-```
-yarn lint
+  git clone https://github.com/LucasSFranco/vue-task-app
+  yarn
+  yarn serve
 ```
 
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
-- Turn toggle button disabled when loading items and prevent add task form open on Enter key press
-- Add max char number to textarea
-- Split some components in other files (scrollbox, textarea)
-- Add all, complete and incomplete tasks filter
-- Add tasks left counter
+###### My first Vue app
