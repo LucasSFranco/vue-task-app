@@ -13,13 +13,9 @@
       @keydown.exact.enter.prevent
     />
     <small>
-      escape to <button
-        @click="hideAddTaskForm"
-      >cancel</button>
+      escape to <button @click="hideAddTaskForm">cancel</button>
       <i class="fas fa-circle" />
-      enter to <button
-        @click="handleAddTask"
-      >save</button>
+      enter to <button @click="handleAddTask">save</button>
     </small>
   </div>
 </template>
@@ -38,9 +34,7 @@ export default {
     };
   },
   computed: {
-    ...mapGetters([
-      'showAddTaskForm',
-    ]),
+    ...mapGetters(['showAddTaskForm']),
   },
   watch: {
     showAddTaskForm(value) {
@@ -62,10 +56,7 @@ export default {
     window.removeEventListener('keydown', this.keymap);
   },
   methods: {
-    ...mapMutations([
-      'hideAddTaskForm',
-      'revealAddTaskForm',
-    ]),
+    ...mapMutations(['hideAddTaskForm', 'revealAddTaskForm']),
     async handleAddTask() {
       if (!this.task.validate()) return this.hideAddTaskForm();
 
@@ -145,5 +136,4 @@ export default {
 
       &:hover
         text-decoration: underline
-
 </style>

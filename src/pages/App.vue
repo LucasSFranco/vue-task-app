@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="card"
-  >
+  <div class="card">
     <Header />
     <AddTaskForm />
     <TaskList />
@@ -70,5 +68,4 @@ body,
 
       max-width: 608px
       max-height: 608px
-
 </style>

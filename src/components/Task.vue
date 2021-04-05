@@ -141,5 +141,4 @@ export default {
   &.completed p
     color: #b9bbbe
     text-decoration: line-through
-
 </style>

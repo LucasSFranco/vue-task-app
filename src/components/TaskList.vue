@@ -113,5 +113,4 @@ export default {
         font-size: 14px
         font-weight: 300
         text-align: center
-
 </style>

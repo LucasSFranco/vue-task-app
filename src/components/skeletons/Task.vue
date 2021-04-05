@@ -2,7 +2,7 @@
   <li
     v-for="index in 20"
     :key="index"
-    class="skeleton task"
+    class="skeleton-of-task"
     :style="{ opacity: 1 - index * 0.05 }"
   >
     <div class="button left" />
@@ -19,7 +19,7 @@ export default {
 
 <style scoped lang="sass">
 
-.skeleton.task
+.skeleton-of-task
   display: flex
   align-items: center
   padding: 0 8px
@@ -49,5 +49,4 @@ export default {
     &.right
       width: 14px
       height: 14px
-
 </style>
