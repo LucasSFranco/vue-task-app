@@ -1,5 +1,14 @@
 import { createApp } from 'vue';
-import App from './App.vue';
-import store from './store';
+import { InlineSvgPlugin } from 'vue-inline-svg';
 
-createApp(App).use(store).mount('#app');
+import App from '@/pages/App.vue';
+import router from '@/pages/router';
+import store from '@/store';
+import i18n from '@/i18n';
+
+createApp(App)
+  .use(store)
+  .use(router)
+  .use(i18n)
+  .use(InlineSvgPlugin)
+  .mount('#app');

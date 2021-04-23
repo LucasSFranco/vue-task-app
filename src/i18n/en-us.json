@@ -1,0 +1,52 @@
+{
+  "en-us": {
+    "tasks": {
+      "header": {
+        "title": "Tasks",
+        "subtitle": "Get things done, one thing at a time."
+      },
+      "addTaskForm": {
+        "placeholder": "Type a new task...",
+        "to": "to",
+        "cancelButton": "cancel",
+        "saveButton": "save"
+      },
+      "list": {
+        "empty": {
+          "all": "Hmm! It looks like you don't have any tasks at the moment.",
+          "pending": "Well done! You have no tasks left.",
+          "completed": "Sorry, you haven't completed any tasks yet."
+        }
+      },
+      "footer": {
+        "itemsLeft": "Tasks left:",
+        "tabs": {
+          "all": "All",
+          "pending": "Pending",
+          "completed": "Completed"
+        },
+        "clearCompletedButton": "Clear Completed"
+      }
+    },
+    "configs": {
+      "header": {
+        "title": "Settings",
+        "subtitle": "Customize the app in the best way for you."
+      },
+      "body": {
+        "appearanceTitle": "Appearance",
+        "themeLabel": "Theme",
+        "themes": {
+          "dark": "Dark",
+          "light": "Light"
+        },
+        "accessibilityTitle": "Accessibility",
+        "languageLabel": "Language",
+        "languages": {
+          "en-us": "English, US",
+          "pt-br": "Portuguese, Brazil"
+        }
+      }
+    }
+  }
+}

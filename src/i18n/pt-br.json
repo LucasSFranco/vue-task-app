@@ -1,0 +1,52 @@
+{
+  "pt-br": {
+    "tasks": {
+      "header": {
+        "title": "Tarefas",
+        "subtitle": "Faça as coisas, uma coisa de cada vez."
+      },
+      "addTaskForm": {
+        "placeholder": "Digite uma nova tarefa...",
+        "to": "para",
+        "cancelButton": "cancelar",
+        "saveButton": "salvar"
+      },
+      "list": {
+        "empty": {
+          "all": "Hmm! Parece que você não tem nenhuma tarefa no momento.",
+          "pending": "Muito bem! Você não tem tarefas restantes.",
+          "completed": "Desculpe, você não completou nenhuma tarefa ainda."
+        }
+      },
+      "footer": {
+        "itemsLeft": "Tarefas restantes:",
+        "tabs": {
+          "all": "Todas",
+          "pending": "Pendentes",
+          "completed": "Completas"
+        },
+        "clearCompletedButton": "Limpar Completas"
+      }
+    },
+    "configs": {
+      "header": {
+        "title": "Configurações",
+        "subtitle": "Personalize o aplicativo da melhor maneira para você."
+      },
+      "body": {
+        "appearanceTitle": "Aparência",
+        "themeLabel": "Tema",
+        "themes": {
+          "dark": "Escuro",
+          "light": "Claro"
+        },
+        "accessibilityTitle": "Acessibilidade",
+        "languageLabel": "Idioma",
+        "languages": {
+          "en-us": "Inglês, EUA",
+          "pt-br": "Português, Brasil"
+        }
+      }
+    }
+  }
+}
