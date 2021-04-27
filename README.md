@@ -1,34 +1,25 @@
-# vue-task-app-no-ts
+# Vue Task App ✔️ <sup><sub>[DEMO](https://angry-nobel-17e7b9.netlify.app/)</sub></sup>
 
-## Project setup
-```
-npm install
-```
+###### Click on the link beside the title above to view the app
 
-### Compiles and hot-reloads for development
+&nbsp;&nbsp;&nbsp;&nbsp;A task app built using `Vue.js` and `Dexie.js`. Also includes `Vuex` as state manager. Some of its features:
+  - collapsible add task form;
+  - hotkeys to open and close add task form (ENTER and ESC keys);
+  - skeleton loading;
+  - delete task button;
+  - toggle task completion button;
+  - dark and light themes;
+  - translations (portuguese and english);
+  - animations;
+  - self-expandable textarea; and,
+  - a beatiful design.  
+  
+### How to run
+&nbsp;&nbsp;&nbsp;&nbsp;Just write the lines below in your console:
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Run your end-to-end tests
-```
-npm run test:e2e
+  git clone https://github.com/LucasSFranco/vue-task-app
+  yarn
+  yarn serve
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+###### My first Vue app
