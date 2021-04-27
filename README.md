@@ -2,7 +2,7 @@
 
 ###### Click on the link beside the title above to view the app
 
-&nbsp;&nbsp;&nbsp;&nbsp;A task app built using `Vue.js` and `Dexie.js`. Also includes `Vuex` as state manager. Some of its features:
+&nbsp;&nbsp;&nbsp;&nbsp;A task app built using `Vue.js` and `Dexie.js`. Also includes `Vuex` as state manager and `Sass` as CSS preprocessor. Some of its features:
   - collapsible add task form;
   - hotkeys to open and close add task form (ENTER and ESC keys);
   - skeleton loading;
