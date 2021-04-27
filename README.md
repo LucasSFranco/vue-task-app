@@ -1,4 +1,4 @@
-# Vue Task App ✔️ <sup><sub>[DEMO](https://angry-nobel-17e7b9.netlify.app/)</sub></sup>
+# Vue Task App 3.0 ✔️ <sup><sub>[DEMO](https://angry-nobel-17e7b9.netlify.app/)</sub></sup>
 
 ###### Click on the link beside the title above to view the app
 
