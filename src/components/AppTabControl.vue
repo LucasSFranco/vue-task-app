@@ -17,8 +17,7 @@ export default defineComponent({
   .tab-control
     display: flex
 
-    &::v-deep
-      & > * + *
-        margin-left: 8px
+    :deep(> * + *)
+      margin-left: 8px
 
 </style>

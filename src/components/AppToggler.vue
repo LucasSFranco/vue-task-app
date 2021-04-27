@@ -31,7 +31,7 @@ export default defineComponent({
 
     transition: background 100ms, color 100ms
 
-    ::v-deep i
+    :deep(i)
       font-size: 14px
 
     &[primary]

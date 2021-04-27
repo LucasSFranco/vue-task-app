@@ -15,8 +15,7 @@ export default defineComponent({
 <style scoped lang="sass">
 
   .radio-group
-    ::v-deep
-      > * + *
-        margin-top: 8px
+    :deep(> * + *)
+      margin-top: 8px
 
 </style>

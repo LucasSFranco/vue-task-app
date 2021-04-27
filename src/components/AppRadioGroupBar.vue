@@ -52,9 +52,8 @@ export default defineComponent({
         color: var(--INTERACTIVE_SELECTED)
 
         .custom-checkbox
-          ::v-deep
-            .checked
-              fill: var(--CUSTOM_CHECKBOX_CHECKED)
+          :deep(.checked)
+            fill: var(--CUSTOM_CHECKBOX_CHECKED)
 
     label
       width: 100%
@@ -78,9 +77,8 @@ export default defineComponent({
         color: var(--INTERACTIVE_ACTIVE)
 
       .custom-checkbox
-        ::v-deep
-          .checked
-            fill: transparent
+        :deep(.checked)
+          fill: transparent
 
       .content
         display: flex
@@ -94,20 +92,19 @@ export default defineComponent({
           display: flex
           align-items: center
 
-          ::v-deep
-            small
-              display: none
+          :deep(small)
+            display: none
 
-              @media only screen and (min-width: 640px)
-                &
-                  display: initial
+            @media only screen and (min-width: 640px)
+              &
+                display: initial
 
-                  font-size: 12px
-                  font-weight: 300
+                font-size: 12px
+                font-weight: 300
 
-            img
-              margin-left: 8px
-              width: 27px
-              height: 18px
+          :deep(img)
+            margin-left: 8px
+            width: 27px
+            height: 18px
 
 </style>

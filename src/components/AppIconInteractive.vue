@@ -19,9 +19,8 @@ export default defineComponent({
     flex-shrink: 0
     margin: 0 8px
 
-    ::v-deep
-      i
-        font-size: 14px
+    :deep(i)
+      font-size: 14px
 
     &:active
       transform: translateY(1px)
